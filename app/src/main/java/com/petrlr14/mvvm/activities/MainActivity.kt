@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.petrlr14.mvvm.R
 import com.petrlr14.mvvm.adapter.ReposAdapter
-import com.petrlr14.mvvm.database.viewmodels.GitHubRepoViewModel
+import com.petrlr14.mvvm.viewmodels.GitHubRepoViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

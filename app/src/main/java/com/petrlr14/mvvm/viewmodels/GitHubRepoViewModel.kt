@@ -1,4 +1,4 @@
-package com.petrlr14.mvvm.database.viewmodels
+package com.petrlr14.mvvm.viewmodels
 
 import android.app.Application
 import android.widget.Toast
@@ -7,7 +7,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
 import com.petrlr14.mvvm.database.RoomDB
 import com.petrlr14.mvvm.database.entities.GitHubRepo
-import com.petrlr14.mvvm.database.repositories.GitHubRepoRepository
+import com.petrlr14.mvvm.repositories.GitHubRepoRepository
 import com.petrlr14.mvvm.service.retrofit.GithubService
 import kotlinx.coroutines.launch
 

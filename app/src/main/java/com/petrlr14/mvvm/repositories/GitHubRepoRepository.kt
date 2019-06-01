@@ -1,4 +1,4 @@
-package com.petrlr14.mvvm.database.repositories
+package com.petrlr14.mvvm.repositories
 
 import androidx.annotation.WorkerThread
 import androidx.lifecycle.LiveData
